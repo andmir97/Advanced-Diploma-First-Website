@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NCC Aviation|Home-Page</title>
+        <link href="style.css" rel = "stylesheet">
+        <script src="https://kit.fontawesome.com/67c66657c7.js"></script>
+        <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    </head>
+
+    <body>
+        <!-- Navigation Bar -->
+        <input type="checkbox" id="check">
+        <nav>
+            <div class="icon">NCC Drone Aviation <a href="index.html"><i class="fas fa-home"></i></a></div>
+            <div class="search-bar">
+                <input type="search" placeholder="Type Here">
+                <span class="fa fa-search"></span>
+            </div>
+
+            <ol>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="members-area.html">Members</a></li>
+                <li><a href="community-group.html">Community</a></li>
+                <li><a href="flying-place.html">Places To Fly</a></li>
+                <li><a href="training.html">Training</a></li>
+                <li><a href="review.html">Review</a></li>
+            </ol>
+
+            <label for="check" class="bar">
+                <span class="fa fa-bars" id="bars"></span>
+                <span class="fa fa-times" id="times"></span>
+            </label>
+
+        </nav>
+        <section></section>
+
+        <!-- Greeting message and video -->
+        <div class="greetings">
+            <div class="greeting-text"><h1>Welcome to the amazing world of drone flying !</h1> 
+                <p>Within this community of fellow drone enthusiasts you will find all the information you need regarding drone regulations, flying locations, product reviews and much more!</p>
+            </div>
+           <div class="greeting-video">
+                <video controls autoplay loop>
+                     <source src="assets/videos/landing.mp4" type="video/mp4">
+                 </video>
+           </div>
+        </div>
+        <!-- Feature Page Content -->
+        <div class="feature-container">
+            
+            <div class="drone-feature">
+                    <!-- <img src="assets/images/drone-card.jpg"> -->
+                    <h3>Drones</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam facere, eveniet alias totam error labore voluptatum cupiditate reiciendis nostrum maiores quos provident. <br>
+                        Tempora quos sint eligendi quaerat, earum ipsa?</p>
+                    <button class ="feature-button" type="button">Click here!</button>
+                </div>
+
+                <div class="location-feature">
+                    <!-- <img src="assets/images/drone-location.jpg"> -->
+                    <h3>Location</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur ullam facere, eveniet alias totam error labore voluptatum cupiditate reiciendis nostrum maiores quos provident. <br>
+                        Tempora quos sint eligendi quaerat, earum ipsa?</p>
+                    <button class ="feature-button" type="button" onclick="opener()">Click here!</button>
+                </div>
+            
+        </div>
+
+        <!-- News Feed -->
+        <h2 class="news-title">NEWS</h2>
+        <div class="card">
+            <div class="card-content">
+                <img src="assets/images/drone-equip.jpg" alt="flying-drone-image" width="300px">
+                <div class="card-text"><h3>Drone flying locations</h3>
+                    <p>Don't know where you can fly your drone safely and lawfully?<br>
+                        Click here to see all the different locations you can go to and go get your fly on!</p>
+                </div>
+            </div>
+
+            <div class="card-content">
+                <img src="assets/images/drone-location-2.jpg" width="300px">
+               <div class="card-text"><h3>Drone flying locations</h3>
+                <p>Don't know where you can fly your drone safely and lawfully?<br>
+                    Click here to see all the different locations you can go to and go get your fly on!</p>
+               </div> 
+                
+            </div>
+
+            <div class="card-content">
+                <img src="assets/images/drone-location-2.jpg" width="300px">
+                <div class="card-text"><h3>Drone flying locations</h3>
+                    <p>Don't know where you can fly your drone safely and lawfully?<br>
+                        Click here to see all the different locations you can go to and go get your fly on!</p>
+                 </div>
+            </div>
+
+            <div class="card-content">
+                <img src="assets/images/drone-location-2.jpg" width="300px">
+                <div class="card-text"><h3>Drone flying locations</h3>
+                    <p>Don't know where you can fly your drone safely and lawfully?<br>
+                        Click here to see all the different locations you can go to and go get your fly on!</p>
+                </div>
+            </div>
+
+        </div>
+        <!-- End video -->
+        <div class="end-content">
+            <h3>Go Explore The Horizon</h3>
+            <div class="end-video">
+            <video controls autoplay loop>
+                <source src="assets/videos/horizon.ogg" type="video/ogg">
+            </video>
+            </div>
+        </div>
+        
+    </body>
+    <script>function opener(){window.location.assign("flying-place.html")}</script>
+
+<!-- Footer -->    
+    <footer>
+        <div class="footer-content">
+            <h3>NCC Drone Aviation</h3>
+            <p>Visit the links to our one of our social media platforms below</p>
+            <ul class="socials">
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-google-plus-g"></i></a></li>
+            </ul>
+            <div class="footer-bottom">
+                <p>copyright &copy;2021 NCC Drone Aviation. designed by<span class="author"> Andre Miruzzi</span></p>
+                <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&layout=button_count&size=large&width=110&height=28&appId" width="110" height="28" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+            </div>
+        </div>
+    </footer>
+</html>
